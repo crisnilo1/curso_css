@@ -1,0 +1,56 @@
+*{
+
+}
+
+figure{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: arial;
+	background: black;
+	color: white;
+}
+/*estilizando titulo*/
+h1,h2{
+	background: #414141;
+	padding: 10px;
+	text-align: center;
+}
+h3{
+	background: black;
+	padding: 5px;
+}
+.noticias{
+	background: gray;
+	display: inline-block;
+	padding: 10px;
+}
+
+/*pseudo do elemento: HOVER*/
+.noticias:hover{
+	background: black;
+	cursor: pointer;
+}
+/*SELETORES DESCENDENTES*/
+.noticias h3{
+	background: black;
+	padding: 5px;
+}
+.mais-infomações{
+	background: black;
+	padding: 5px;
+}
+/.noticias > p{
+	background: red;
+
+}
+seletoes adjacentes* quando fala dos seletores irmãos
+.noticias h3+p{
+	background: blue;
+
+}*/
+/*seletor de negação
+.mais-infomações p:not(.não-colorir){
+	background: gray;
+}*/
